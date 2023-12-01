@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 20px;
+}
+
+.col {
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+h4 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #f7f7f7;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #007bff;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.alert {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#cadastro,
+#editar {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#cadastro h1,
+#editar h1 {
+    text-align: center;
+    color: #000;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.form,
+.form_grupo {
+    margin-bottom: 15px;
+}
+
+.form_label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form_input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

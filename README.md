@@ -1,4 +1,4 @@
-# projetoPHP
+# ProjetoPHP
 Sistema CRUD de uma agenda de contatos .::. Projeto da disciplina de Programação Web (Análise e Desenvolvimento de Sistemas - Noturno/P2-B)
 <br>
 Grupo: <ul>

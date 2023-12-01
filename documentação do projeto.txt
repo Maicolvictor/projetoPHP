@@ -1,0 +1,52 @@
+*Introdução:*
+   - Criar uma agenda telefônica
+   - Criar um CRUD(Create, Read, Upload, Delete) que faça o cadastro de pessoas em uma agenda telefonica 
+   - HTML, CSS, PHP, Banco de dados: PHPMyAdmin.
+
+*Requisitos:*
+   - Funcionais:
+      - Cadastro de contatos
+      - Edição de contatos
+      - Exclusão de contatos
+      - Listagem de contatos
+   - Não funcionais:
+      - Segurança
+      - Desempenho
+      - Usabilidade
+
+*Configuração do Ambiente:*
+   - Instalação do Xampps
+   - Configurar o arquivo do projeto na pasta httdocs
+   - Configuração do servidor web Apache
+   - Configuração do banco de dados PHPMyAdmin
+
+*Banco de Dados:*
+   - Nome do BD: Agenda
+   - Nome da tabela: Contatos
+   - Nome dos campos e seus tipos: <nome:string> <sobrenome:string> <telefone:int> <email:string>
+
+*Implementação:*
+   - Criação de Contatos
+      - Formulário de cadastro
+      - Lógica de validação
+      - Inserção no banco de dados
+   - Edição de Contatos
+      - Formulário de edição
+      - Atualização no banco de dados
+   - Exclusão de Contatos
+      - Confirmação de exclusão
+      - Remoção do banco de dados
+   - Listagem de Contatos
+      - Paginação
+      - Ordenação
+      - Pesquisa
+
+*Design:*
+   - Interface do usuário
+   - Responsividade
+   - Experiência do usuário
+
+*Considerações Finais:*
+   - Agradecimentos
+   - Contato para suporte
+   - Licença de uso
